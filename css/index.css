@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Main Body */
+body{
+  font-family: Ariel, Helverica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #171717;
+}
