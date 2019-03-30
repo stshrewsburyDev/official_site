@@ -43,6 +43,7 @@ header #branding{
 header #branding img{
   margin: 0;
   width: 100%;
+  max-width: 1200px;
   height: auto;
   transition: 0.5s;
 }
@@ -194,4 +195,26 @@ header nav ul li .ProjectsDropdown li a:hover{
 
 #infoBoxes .box:hover p{
   font-size: 22px;
+}
+
+
+/* Footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #EEEEEE;
+  font-size: 18px;
+  background-color: #151515;
+  border-top: #4E4E4E 2px solid;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #E80C7A;
+  transition: 1.5s;
+}
+
+footer a:hover{
+  color: #21A2FF;
 }
