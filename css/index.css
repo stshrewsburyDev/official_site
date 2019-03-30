@@ -165,18 +165,33 @@ header nav ul li .ProjectsDropdown li a:hover{
   transition: 0.5s;
 }
 
-#infoBoxes .box img{
-  width: 100px;
+#infoBoxes .box:hover{
+  background: #A0A0A0;
 }
 
-#infoBoxes .box img:hover{
+#infoBoxes .box img{
+  width: 100px;
+  transition: 0.5s;
+}
+
+#infoBoxes .box:hover img{
   width: 120px;
 }
 
 #infoBoxes .box h2{
   font-size: 28px;
+  transition: 0.5s;
+}
+
+#infoBoxes .box:hover h2{
+  font-size: 35px;
 }
 
 #infoBoxes .box p{
   font-size: 18px;
+  transition: 0.5s;
+}
+
+#infoBoxes .box:hover p{
+  font-size: 22px;
 }
