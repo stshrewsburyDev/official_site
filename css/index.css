@@ -95,19 +95,46 @@ header nav ul li:hover .ProjectsDropdown{
 }
 
 header nav ul li .ProjectsDropdown li{
-  padding: 8px 14px;
-}
-
-header nav ul li .ProjectsDropdown li a{
-  padding: 8px 14px;
-  color: #FFFFFF;
+  padding-top: 8px;
+  width: 210px;
+  height: 25px;
+  padding-bottom: 8px;
+  border-radius: 10px 10px 10px 10px;
   transition: 0.25s;
 }
 
-header nav ul li .ProjectsDropdown li a:hover{
+header nav ul li .ProjectsDropdown li a{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #FFFFFF;
+}
+
+header nav ul li .ProjectsDropdown li:hover{
   background-color: #757575;
 }
 
+header nav ul li .ProjectsDropdown ul li .ListDropdown{
+  display: none;
+  position: absolute; left: 250px; top: 0px;
+  background-color: #404040;
+  padding: 5px;
+  width: 275px;
+  cursor: default;
+  min-height: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header nav ul li .ProjectsDropdown ul li:hover .ListDropdown{
+  display: block;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown a{
+  text-transform: none;
+}
+header nav ul li .ProjectsDropdown ul li .ListDropdown h1{
+  color: #E5E5E5;
+  padding: 6px;
+}
 
 /* Showcase */
 #showcase{
