@@ -118,7 +118,7 @@ header nav ul li .ProjectsDropdown ul li .ListDropdown{
   position: absolute; left: 250px; top: 0px;
   background-color: #404040;
   padding: 5px;
-  width: 275px;
+  width: 250px;
   cursor: default;
   min-height: 100%;
   border-radius: 10px 10px 10px 10px;
@@ -131,9 +131,15 @@ header nav ul li .ProjectsDropdown ul li:hover .ListDropdown{
 header nav ul li .ProjectsDropdown ul li .ListDropdown a{
   text-transform: none;
 }
+
 header nav ul li .ProjectsDropdown ul li .ListDropdown h1{
   color: #E5E5E5;
   padding: 6px;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown p{
+  color: #D5D5D5;
+  padding: 8px;
 }
 
 /* Showcase */
