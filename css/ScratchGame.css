@@ -163,24 +163,20 @@ header nav ul li .ProjectsDropdown ul li .ListDropdown p{
 
 
 /* Game info */
-#GameInfo{
-  background-color: #757575;
-}
-
 #GameInfo h1{
   font-size: 40px;
-  color: #202020;
+  color: #A0A0A0;
   margin-bottom: 10px;
 }
 
 #GameInfo p{
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
   margin-bottom: 10px;
 }
 
 #GameInfo a{
-  color: #200090;
+  color: #A000F0;
   font-weight: bold;
 }
 
