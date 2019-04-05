@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+/* Custom font */
+@font-face {
+  font-family: JosefinSans;
+  src: url("https://stshrewsburyDev.github.io/official_site/fonts/JosefinSans.ttf");
+}
+
+
+/* Main body */
+body{
+  font-family: JosefinSans;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #171717;
+}
+
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/* Header */
+header{
+  background: #121212;
+  color: #009191;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #4E4E4E 3px solid;
+}
+
+header #branding{
+  float: none;
+}
+
+header #branding img{
+  margin: 0;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  transition: 0.5s;
+}
+
+  /* Header lists */
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float: left;
+  margin-top: 15px;
+}
+
+header .NonClickable{
+  cursor: pointer;
+}
+
+header a:hover{
+  color: #E80C7A;
+}
+
+header nav ul li .ProjectsDropdown{
+  display: none;
+  position: absolute;
+  background-color: #505050;
+  padding: 5px;
+  width: 250px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+header nav ul li:hover .ProjectsDropdown{
+  display: block;
+}
+
+header nav ul li .ProjectsDropdown li{
+  padding-top: 8px;
+  width: 210px;
+  height: 25px;
+  padding-bottom: 8px;
+  border-radius: 10px 10px 10px 10px;
+  transition: 0.25s;
+}
+
+header nav ul li .ProjectsDropdown li a{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #FFFFFF;
+}
+
+header nav ul li .ProjectsDropdown li:hover{
+  background-color: #757575;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown{
+  display: none;
+  position: absolute; left: 250px; top: 0px;
+  background-color: #404040;
+  padding: 5px;
+  width: 250px;
+  cursor: default;
+  min-height: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header nav ul li .ProjectsDropdown ul li:hover .ListDropdown{
+  display: block;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown a{
+  text-transform: none;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown h1{
+  color: #E5E5E5;
+  padding: 6px;
+}
+
+header nav ul li .ProjectsDropdown ul li .ListDropdown p{
+  color: #D5D5D5;
+  padding: 8px;
+}
