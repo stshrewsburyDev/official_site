@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+/* Main body */
+body{
+  font-family: JosefinSans;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #171717;
+}
+
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/* Game area */
+#GameArea{
+  background-color: #101010;
+  border-bottom: #4E4E4E 2px solid;
+  text-align: center;
+}
+
+#GameArea h1{
+  font-size: 45px;
+  color: #C0C0C0;
+  cursor: default;
+  margin-bottom: 10px;
+}
+
+#GameArea iframe{
+  background-color: #101010;
+}
+
+
+/* Game info */
+#GameInfo h1{
+  font-size: 40px;
+  color: #A0A0A0;
+  margin-bottom: 10px;
+}
+
+#GameInfo p{
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+#GameInfo a{
+  color: #A000F0;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #EEEEEE;
+  font-size: 18px;
+  background-color: #151515;
+  border-top: #4E4E4E 2px solid;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #E80C7A;
+  transition: 1.5s;
+}
+
+footer a:hover{
+  color: #21A2FF;
+}
