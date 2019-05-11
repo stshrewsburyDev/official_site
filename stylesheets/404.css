@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Main body */
+body{
+  font-family: Ariel, Helverica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #171717;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Image */
+body img{
+  margin: 0;
+  width: 25%;
+  height: auto;
+}
+
+/* Title */
+body h1{
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+/* Text */
+body p{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* Link */
+body a{
+  text-decoration: none;
+  color: #7231FF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body a:hover{
+  color: #727FFF;
+}
